@@ -1,0 +1,14 @@
+@use '../../../constants/colors';
+
+.table {
+  background: white;
+  border: none;
+  th {
+    text-align: left;
+    background: colors.$bg;
+    padding: 10px;
+  }
+  td {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+@use '../constants/colors';
+
+html {
+  height: 100%;
+}
+
+body {
+  background: colors.$bg;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}

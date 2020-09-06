@@ -1,0 +1,15 @@
+@use '../../constants/colors';
+
+.navigation {
+  height: 100%;
+  background: colors.$nav;
+  width: 110px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  padding-top: 20px;
+}
